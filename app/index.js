@@ -1,5 +1,4 @@
 import Foo from 'foo.jsx'
+import {render} from 'react-dom';
 
-import ReactDOM from 'react-dom'
-
-ReactDOM.render(<Foo />, document.getElementById('hello'));
+render(<Foo />, document.getElementById('hello'));
