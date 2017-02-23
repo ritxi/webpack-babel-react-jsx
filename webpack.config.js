@@ -13,6 +13,11 @@ module.exports = {
       "node_modules"
     ]
   },
+  devServer: {
+    contentBase: [path.join(__dirname, "public"), path.join(__dirname, "dist")],
+    compress: true,
+    port: 9000
+  },
   module: {
     rules: [
       {
