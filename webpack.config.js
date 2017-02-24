@@ -24,7 +24,9 @@ module.exports = {
         test: /\.jsx?$/,
         loader: "babel-loader",
         exclude: /node_modules/
-      }
+      },
+      { test: require.resolve("react"), loader: "expose-loader?React" },
+      { test: require.resolve("react-dom"), loader: "expose-loader?ReactDOM" }
     ]
   }
 };
