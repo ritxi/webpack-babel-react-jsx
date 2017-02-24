@@ -1,0 +1,10 @@
+# Sample Hello world app
+  - Webpack 2.2
+  - Webpack Development server
+  - ES6
+  - React
+
+# Running
+
+ $ npm install
+ $ npm start
