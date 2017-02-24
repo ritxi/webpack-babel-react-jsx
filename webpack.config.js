@@ -13,6 +13,7 @@ module.exports = {
       "node_modules"
     ]
   },
+  devtool: 'source-map',
   devServer: {
     contentBase: [path.join(__dirname, "public"), path.join(__dirname, "dist")],
     compress: true,
